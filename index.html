@@ -133,7 +133,8 @@
                         clients such as <a href="https://www.colgate.com/" target="_blank"> Colgate </a>, <a
                           href="https://www.autodesk.com/" target="_blank"> Autodesk </a> and
                         <a href="https://us.pg.com/" target="_blank"> Procter & Gamble </a> on projects involving
-                        forecasting, predictive analytics and natual language processing using machine learning.
+                        forecasting, predictive analytics, big data technologies and natual language processing using
+                        machine learning.
                       </p>
                       <i> Tools and Technologies </i>: python, pytorch, tensorflow, pytorch lightning, docker,
                       git, Fast API, django, Microsoft Azure, AWS, Airflow, Jenkins, Numpy, Pandas, Scipy,
@@ -230,9 +231,6 @@
                             text-to-image generation and editing using diffusion models
                           </papertitle>
                           <br>
-                          <a href='data/Diffusion_Dreambooth.pdf'> Paper</a> /
-                          <a href='https://github.com/sakshamjindal/Subject2Subject'> Code </a>
-                          <br>
                           <br>
                           Developed pipeline for personalized text-to-image generation and editing using latent
                           diffusion models
@@ -248,55 +246,50 @@
 
                         </td>
                       </tr>
-                      <!-- Visual Odometry Project -->
+                      <!-- UniGuide -->
                       <tr>
                         <td style="padding:10px;width:25%;vertical-align:middle;padding-top: 20px;">
                           <div class="one">
-                            <img src='images/vo-slam.gif' width="120">
+                            <img src='images/uniguide.png' width="120">
                           </div>
                         </td>
                         <td style="padding:10px;width:75%;vertical-align:top">
-                          <papertitle style="color:black">Stereo visual SLAM with local bundle adjustment on KITTI
-                            dataset </papertitle>
+                          <papertitle style="color:black">Stevens Institute of Technology Chatbot</papertitle>
                           <br>
-                          <a href='https://github.com/sakshamjindal/Stereo-Visual-SLAM-Odometry'> Code </a> /
-                          <a href='https://youtu.be/GnvAO-jpMPo'> Demo Video </a>
+                          <a href='https://github.com/smendes2901/university-chatbot'> Code </a> /
                           <br>
                           <br>
-                          Implemented a Visual SLAM pipeline for 6-DOF camera pose estimation and outdoor scene mapping
-                          using techniques
-                          in multi-view geometry - RANSAC, feature tracking, 3D reconstruction, pose estimation (PnP
-                          algorithm) and
-                          bundle adjustment
+                          Designed Large Language Model chatbot to assist students, faculty, and prospective applicants
+                          by providing detailed information about various aspects of university life and administration
+                          at Stevens
+                          Institute of Technology. Built using Langchain, Streamlit, and GPT-4, this chatbot offers a
+                          user-friendly interface and comprehensive details across a range of topics.
                           <br>
                           <br>
-                          <i> Tools and Technologies </i>: python, pytorch, hugging face diffusers, stable diffusion,
-                          OpenCV, transformers
+                          <i> Tools and Technologies </i>: python, pytorch, hugging face, Streamlit, Ollama, Langchain,
+                          transformers
                         </td>
                       </tr>
 
-                      <!-- Satellite Image Segmentation -->
+                      <!-- Movie Recommendation Engine -->
                       <tr>
                         <td style="padding:10px;width:25%;vertical-align:middle;padding-top: 20px;">
                           <div class="one">
-                            <img src='images/satellite.png' width="100" height="100">
+                            <img src='images/movieRec.jpg' width="100" height="100">
                           </div>
                         </td>
                         <td style="padding:10px;width:75%;vertical-align:top">
-                          <papertitle style="color:black"> How to Extract Roads from Satellite Images using Semantic
-                            Segmentation? </papertitle>
+                          <papertitle style="color:black">Hybrid Recommendation Engine using LLama2 </papertitle>
                           <br>
-                          <a href='data/Road_Extraction_from_Satellite_Images.pdf'> Paper</a> /
-                          <a href='https://github.com/sakshamjindal/Satellite-Road-Segmentation'> Code </a>
+                          <a href='https://github.com/smendes2901/movie_chat_bot'> Code </a>
                           <br>
                           <br>
-                          Developed framework for extraction of road geometry from satellite images using convolutional
-                          neural network (CNN)
-                          based semantic segmentation architectures experimenting with data augmentations, schedulers,
-                          optimizers and loss functions
+                          Fine-tuned Llama2 chatbot using QLoRA, tailored to provide detailed
+                          information and recommendations about movies. The model is fine-tuned on the IMDB dataset,
+                          enabling it to generate informed and contextually relevant responses.
                           <br>
                           <br>
-                          <i> Tools and Technologies </i>: python, pytorch, pytorch-segmentation, torchvision, pillow
+                          <i> Tools and Technologies </i>: python, pytorch, huggingface, transformers
                         </td>
                       </tr>
 
@@ -304,153 +297,73 @@
                       <tr>
                         <td style="padding:10px;width:25%;vertical-align:middle;padding-top: 20px;">
                           <div class="one">
-                            <img src='images/pf-slam.png' width="120">
+                            <img src='images/instacart.webp' width="120">
                           </div>
                         </td>
                         <td style="padding:10px;width:75%;vertical-align:top">
-                          <papertitle style="color:black">Particle Filter SLAM for an indoor differential-drive robot
+                          <papertitle style="color:black">Instacark Market Recommendation System
                           </papertitle>
                           <br>
-                          <a href='data/PF-SLAM.pdf'> Paper</a> /
-                          <a href='https://github.com/sakshamjindal/particle-filter-slam'> Code </a>
+                          <a href='https://github.com/smendes2901/Instacark-Market-Recommendation-System'> Code </a>
                           <br>
                           <br>
-                          Created Particle Filter SLAM pipeline using IMU odometry data and LiDAR scans from sensors
-                          mounted on the
-                          differential drive robot to enable localization and build occupancy grid map of the
-                          environment
+                          Modeled a collaborative filtering-based recommender systems for personalized Instacart
+                          recommendations, comparing performance with TF-IDF, Singular Value Decomposition(SVD), and
+                          Bayesian Personalized Ranking(BPR) methods
                           <br>
                           <br>
-                          <i> Tools and Technologies </i>: python, numpy, matplotlib, OpenCV
+                          <i> Tools and Technologies </i>: python, pandas, numpy, matplotlib, lightFM, implicit
                         </td>
                       </tr>
 
-                      <!-- Particle Filter SLAM -->
-                      <!-- <tr>
-              <td style="padding:10px;width:25%;vertical-align:middle;padding-top: 20px;">
-                  <div class="one">
-                      <img src='images/diffusion_arch.png' width="120">
-                  </div>
-              </td>
-              <td style="padding:10px;width:75%;vertical-align:top">
-                  <papertitle style="color:black">LEAD: Self-Supervised Landmark Estimation 
-                    by Aligning Distributions of Feature Similarity </papertitle>
-                  <br>
-                  <a href = 'https://openaccess.thecvf.com/content/WACV2022/papers/Karmali_LEAD_Self-Supervised_Landmark_Estimation_by_Aligning_Distributions_of_Feature_Similarity_WACV_2022_paper.pdf'> Paper</a> /
-                  <a href = 'https://openaccess.thecvf.com/content/WACV2022/supplemental/Karmali_LEAD_Self-Supervised_Landmark_WACV_2022_supplemental.pdf'> Code </a>             
-                  <br>
-                  <p align="justify">Tejan Karmali*, Abhinav Atrishi*, <b>Sai Sree Harsha</b>, Susmit Agrawal, Varun Jampani, Venkatesh Babu</p>
-                  <br>
-              </td>
-            </tr> -->
-
-                      <!-- Variational Autoencoder -->
+                      <!-- Brewery sales forecasting -->
                       <tr>
                         <td style="padding:10px;width:25%;vertical-align:middle;padding-top: 20px;">
                           <div class="one">
-                            <img src='images/medvae.png' width="120">
+                            <img src='images/bsf.png' width="120">
                           </div>
                         </td>
                         <td style="padding:10px;width:75%;vertical-align:top">
-                          <papertitle style="color:black"> MedVAE: Generating Chest X-Ray Images using
-                            Variational Autoencoders (VAE) </papertitle>
+                          <papertitle style="color:black"> Brewery Sales Forecasting </papertitle>
                           <br>
-                          <a href='data/MedVAE.pdf'> Paper</a> /
-                          <a
-                            href='https://colab.research.google.com/drive/1eRYx3okk8KX7tqIvareTujeXTkD2S-hZ?usp=sharing'>
+                          <a href='https://github.com/smendes2901/Brewery-Sales-Forecasting'>
                             Code </a>
                           <br>
                           <br>
-                          Programmed variational auto-encoder (VAE) trained on a dataset of chest X-rays from patients
-                          diagnosed with pneumonia
-                          to generate realistic and representative chest X-ray images for improved diagnostic
+                          Project involves forecasting total sales for a brewery using a dataset from Kaggle. The models
+                          used for forecasting include Linear Regression, Random Forest, and Decision Tree on PySpark.
+                          The project has been executed and tested on Google Cloud Platform's DataProc service.
                           <br>
                           <br>
-                          <i> Tools and Technologies </i>: python, pytorch, numpy, matplotlib, OpenCV, matplotlib
+                          <i> Tools and Technologies </i>: python, numpy, matplotlib, pyspark, matplotlib, Google Cloud
+                          Platform
                         </td>
                       </tr>
 
-                      <!-- Generative Adversial Network -->
+                      <!-- DineMate -->
                       <tr>
                         <td style="padding:10px;width:25%;vertical-align:middle;padding-top: 20px;">
                           <div class="one">
-                            <img src='images/art-gan.png' width="120">
+                            <img src='images/dinemate.png' width="120">
                           </div>
                         </td>
                         <td style="padding:10px;width:75%;vertical-align:top">
-                          <papertitle style="color:black"> GAN-Art: Generating Artwork using Deep
-                            Convolutional Generative Adversarial Networks (DCGANs) </papertitle>
+                          <papertitle style="color:black"> DineMate: Dinout Assistant using GPT-4
+                          </papertitle>
                           <br>
-                          <a href='data/GAN-Art.pdf'> Paper</a> /
-                          <a
-                            href='https://colab.research.google.com/drive/13Ms2db3aRiJRRn0BFTvd7YYfpMdJPeb9?usp=sharing'>
+                          <a href='https://github.com/smendes2901/Restaurant-Chatbot'>
                             Code </a>
                           <br>
                           <br>
-                          Programmed deep convolutional generative adversarial network (DCGAN) trained on 50,000+ images
-                          from 10 different artistic styles
-                          to generate high-quality and realistic artwork images that closely resemble the
-                          characteristics of each artistic style
+                          This project is a restaurant chatbot designed using Langchain and GPT, with a frontend built
+                          in Streamlit and APIs managed by FastAPI. The chatbot interacts with customers to provide
+                          personalized food recommendations and resolve customer complaints. All data is stored in a
+                          SQLite database.
                           <br>
                           <br>
-                          <i> Tools and Technologies </i>: python, pytorch, numpy, matplotlib, OpenCV, matplotlib
+                          <i> Tools and Technologies </i>: python, pytorch, hugging face, Streamlit, Ollama, Langchain
                         </td>
                       </tr>
-
-                      <!-- Orientation Tracking -->
-                      <tr>
-                        <td style="padding:10px;width:25%;vertical-align:middle;padding-top: 20px;">
-                          <div class="one">
-                            <img src='images/orientation-slam.png' width="120">
-                          </div>
-                        </td>
-                        <td style="padding:10px;width:75%;vertical-align:top">
-                          <papertitle style="color:black">
-                            Optimised orientation tracking using Riemann stochastic gradient descent
-                          </papertitle>
-                          <br>
-                          <a href='data/optimised_orientation_tracking.pdf'> Paper</a> /
-                          <a href='https://github.com/sakshamjindal/optimised-orientation-tracking'> Code </a>
-                          <br>
-                          <br>
-                          Worked on orientation tracking of a rotating body using quartenion kinematics on IMU data,
-                          constrained optimization
-                          using Riemannian stochastic gradient descent and generating 360-degree spherical panorama of
-                          the indoor scene
-                          <br>
-                          <br>
-                          <i> Tools and Technologies </i>: python, jax, numpy, matplotlib, OpenCV, matplotlib
-                        </td>
-                      </tr>
-
-                      <!-- Contrastive Learning -->
-                      <tr>
-                        <td style="padding:10px;width:25%;vertical-align:middle;padding-top: 20px;">
-                          <div class="one">
-                            <img src='images/contrastive2.png' width="120">
-                          </div>
-                        </td>
-                        <td style="padding:10px;width:75%;vertical-align:top">
-                          <papertitle style="color:black">
-                            Object-centric visual and spatial representations on multi-view CLEVR dataset
-                          </papertitle>
-                          <br>
-                          <a
-                            href='https://docs.google.com/document/d/1cFwUBQ8Ix5qyjrnMymZZuqNy7Nlx4gaMoQ2XeGmeE1M/edit?usp=sharing'>
-                            Doc</a> /
-                          <a href='https://github.com/sakshamjindal/Non-Metric-3d-Representation'> Code </a>
-                          <br>
-                          <br>
-                          Researched on momentum contrastive learning to build view invariant visual and view-dependent
-                          spatial object centric embeddings to build scene graph on multi-view CLEVR dataset
-                          <br>
-                          <br>
-                          <i> Tools and Technologies </i>: python, pytorch, numpy, matplotlib, OpenCV
-                        </td>
-                      </tr>
-
-
-
                     </tbody>
                   </table>
 
